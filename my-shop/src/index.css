@@ -1,0 +1,47 @@
+@import "modern-css-reset";
+
+:root {
+  --text-color: rgb(29, 29, 31);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #1d1d1f;
+}
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  line-height: 1.5;
+  background: #fff;
+  color: #000;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  font-style: normal;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+  outline: none;
+  border: none;
+  background: none;
+}

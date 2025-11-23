@@ -1,0 +1,37 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    background-color: #fbfbfd;
+}
+
+.header_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 980px;
+}
+
+.header_item {
+    /* background-color: red; */
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.header_item-attribute {
+    height: 100%;
+    width: 100%;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.submenu-container {
+    position: relative;
+}
+
+.submenu-container:hover .submenu {
+    display: flex;
+}
